@@ -1,0 +1,98 @@
+.navbar {
+    display: flex;
+    align-items: center; /* Vertically center children */
+    width: 100vw;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    gap: 0.5rem;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link:hover, .nav-link:active {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-link:visited, .nav-link:link {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.list-container ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.list-container ul li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.cart-container {
+    display: flex;
+    gap: 2.4rem;
+    margin-right: 1.2rem;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.shop-link:hover, .shop-link:active {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.shop-link:link, .shop-link:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#start-btn {
+    display: inline-block;
+    border: 1px solid;
+    padding: 0.6rem 1.2rem;
+    background-color: #000;
+    color: #eee;
+}
+
+#start-btn:hover {
+    background-color: #eee;
+    color: #000;
+}

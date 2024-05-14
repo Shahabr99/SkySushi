@@ -1,0 +1,27 @@
+[
+    {
+    "category": "Dishes",
+    "items": [
+        { "name": "Pasta", "price": 10.99 },
+        { "name": "Pizza", "price": 12.99 },
+        { "name": "Burger", "price": 8.99 }
+    ]
+    },
+    {
+    "category": "Drinks",
+    "items": [
+        { "name": "Coke", "price": 2.99 },
+        { "name": "Orange Juice", "price": 3.49 },
+        { "name": "Lemonade", "price": 3.99 }
+    ]
+    },
+    {
+    "category": "Desserts",
+    "items": [
+        { "name": "Cheesecake", "price": 5.99 },
+        { "name": "Ice Cream", "price": 4.49 },
+        { "name": "Brownie", "price": 3.99 }
+    ]
+    }
+]
+  

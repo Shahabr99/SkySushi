@@ -1,0 +1,129 @@
+#root {
+    position: relative;
+}
+
+header {
+    width: 100vw;
+    min-height: 45rem;
+    position: relative;
+}
+
+
+.hero-section {
+    width: 50rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.hero-section h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 3.8rem;
+    text-align: center;
+}
+
+.hero-section p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.btns a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    border: 1px solid;
+    padding: 0.6rem 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#reserve-btn:link, #reserve-btn:visited {
+    background-color: #000;
+    color: #eee;
+}
+
+#reserve-btn:hover, #reserve-btn:active {
+    background-color: #fff;
+    color: #000;
+}
+
+footer {
+    background-color: #000;
+    height: 30rem;
+    position: relative;
+    width: 100vw;
+}
+
+.information {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    top: 85%;
+    left: 2%;
+}
+
+footer p {
+    color: #eee;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+
+
+/* .logo-box2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60rem;
+    gap: 2.4rem;
+}
+
+
+.logo {
+    width: 10rem;
+    height: 3rem; */
+/* } */
+
+
+.sushi-container {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 6.4rem;
+    width: 65rem;
+    z-index: 1;
+}
+
+.sushi-img {
+    width: 16rem;
+    height: 24rem;
+    box-shadow: 1px 1px 3px #2d2d2da7;
+}
+
+#move-top {
+    margin-bottom: 2.4rem;
+}
+
+#move-down {
+    margin-top: 3.6rem;
+}

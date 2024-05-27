@@ -15,7 +15,7 @@ function Homepage() {
 
     return (
         <>
-            <header>
+            <header className="homepage-header">
                 <div className="hero-section">
                     <h1>The best place to<br></br> eat sushi in the city</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
@@ -44,7 +44,8 @@ function Homepage() {
                     </div>
                 </div> */}
                 <div className="information">
-                    <p>address: 2252 Sunrise Blvd, Rancho Cordova, CA 95670</p>
+                    <p>address: 2252 Sunrise Blvd, Rancho Cordova, CA 95670 </p>
+                    <span>|</span>
                     <p>Phone number:  (916) 852-8581</p>
                 </div>
             </footer>

@@ -1,0 +1,70 @@
+.menu-header{
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-section {
+    width: 50rem;
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.menu-section h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 3.8rem;
+    text-align: center;
+}
+
+.menu-section p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+
+.sort-btns {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.sort-btns a:link, .sort-btns a:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #000;
+    border: 1px solid;
+    padding: 0.6rem 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.sort-btns a:hover, .sort-btns a:active {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #ddd;
+    background-color: #000;
+    border: 1px solid;
+    padding: 0.6rem 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+
+.sushi-card-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    border: 1px solid;
+    max-width: 80rem;
+    margin: 0 auto;
+}

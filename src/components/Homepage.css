@@ -2,7 +2,7 @@
     position: relative;
 }
 
-header {
+.homepage-header {
     width: 100vw;
     min-height: 45rem;
     position: relative;
@@ -65,7 +65,7 @@ header {
 
 footer {
     background-color: #000;
-    height: 30rem;
+    height: 40rem;
     position: relative;
     width: 100vw;
 }
@@ -73,10 +73,9 @@ footer {
 .information {
     position: absolute;
     display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-    top: 85%;
-    left: 2%;
+    gap: 1.6rem;
+    top: 95%;
+    left: 1%;
 }
 
 footer p {
@@ -87,30 +86,21 @@ footer p {
     text-transform: uppercase;
 }
 
-
-
-/* .logo-box2 {
-    display: flex;
-    justify-content: space-between;
-    max-width: 60rem;
-    gap: 2.4rem;
+span {
+    color: #eee;
 }
 
-
-.logo {
-    width: 10rem;
-    height: 3rem; */
-/* } */
 
 
 .sushi-container {
     position: absolute;
-    top: 63%;
     left: 50%;
+    top: 58%;
     transform: translate(-50%, -50%);
     display: flex;
+    justify-content: space-between;
     gap: 6.4rem;
-    width: 65rem;
+    max-width: 65rem;
     z-index: 1;
 }
 
@@ -126,4 +116,9 @@ footer p {
 
 #move-down {
     margin-top: 3.6rem;
+}
+
+
+@media screen and (min-width: 116rem){
+    
 }

@@ -19,7 +19,7 @@ function Nav() {
             <div className="list-container">
                 <ul>
                     <li><a className="nav-link" href="/">Home</a></li>
-                    <li><a className="nav-link" href="/">About</a></li>
+                    <li><a className="nav-link" href="/about">About</a></li>
                     <li><a className="nav-link" href="/menu">Menu</a></li>
                     <li><a className="nav-link" href="/">Page</a></li>
                 </ul>

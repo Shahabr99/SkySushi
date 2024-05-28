@@ -1,0 +1,59 @@
+.about-header{
+    display:flex;
+    gap: 1.2rem;
+    align-items: center;
+    max-width: 80rem;
+    margin: 5rem auto;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+    width: 50%;
+    gap: 1.2rem;
+}
+
+.info-section h1{
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-size: 3.6rem;
+}
+
+.info-section p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+}
+
+.restaurant-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.6rem;
+    padding: 2.8rem;
+}
+
+
+.restaurant-info p {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0000007c;
+}
+
+
+.restaurant-info div {
+    border: 1px solid #33333393;
+    padding: 0.4rem 1.2rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.hero {
+    width: 50%;
+    height: 40rem;
+    background-image: url("../../public/images/hero.png");
+    background-position: center;
+    background-size: cover;
+}

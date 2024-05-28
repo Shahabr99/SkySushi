@@ -1,7 +1,7 @@
 import "./Homepage.css";
-import Sushi1 from "../static/images/Sushi1.jpg"
-import Sushi2 from "../static/images/Sushi2.jpg"
-import Sushi3 from "../static/images/Sushi3.jpg"
+import Sushi1 from "/images/Sushi1.jpg"
+import Sushi2 from "/images/Sushi2.jpg"
+import Sushi3 from "/images/Sushi3.jpg"
 
 
 

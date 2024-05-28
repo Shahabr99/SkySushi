@@ -2,18 +2,29 @@ import "./Menu.css"
 import { useState, useEffect } from "react"
 import data from "../json/menu.json"
 
+
 function Menu() {
     const [menu, setMenu] = useState([]);
-    // const [error, setError] = useState("")
+    const [activeSort, setactiveSort] = useState("All")
+
 
     useEffect(() => {
-        console.log(data[3].items[6].image)
+
         if(data[3].category === "All") {
-            setMenu(data[3].items)
+            setMenu(data[3].items);
+            console.log(data)
         }else{
             throw new Error("No data found!")
         }
     },[])
+
+    // sorts the menu based on the button user clicks
+    function handleClick(type:string) {
+        const newData = data.find(menu => menu[category] === type);
+        console.log(newData)
+        setMenu(newData)
+        setactiveSort(type)
+    }
 
 
 
@@ -26,17 +37,16 @@ function Menu() {
                         Quo laboriosam amet tenetur commodi voluptatibus iste dignissimos
                         maiores asperiores neque rem.</p>
                     <div className="sort-btns">
-                        <a href="">All</a>
-                        <a href="">Main Dishes</a>
-                        <a href="">Drinks</a>
-                        <a href="">Appetizer</a>
+                        <button onClick={() => handleClick("All")} className={activeSort === "All" ? "active" : "btn"}>All</button>
+                        <button onClick={() => handleClick("Main")} className={activeSort === "Main" ? "active" : "btn"}>Main Dishes</button>
+                        <button onClick={() => handleClick("Drinks")} className={activeSort === "Drinks" ? "active" : "btn"}>Drinks</button>
+                        <button onClick={() => handleClick("Appetizer")} className={activeSort === "Appetizer" ? "active" : "btn"}>Appetizer</button>
                     </div>
                 </div>
                 <div className="sushi-card-holder">
                     {menu.map((item, index) => (
                         <div key={index}  className="sushi-card">
-                            
-                            <div className="card-img" style={{backgroundImage: `url(${item.image})`}}></div>
+                            <div className="card-img" style={{backgroundImage : `url(${item.img})`}} />
                             
                             <div className="card-desc">
                                 <h3>{item.name}</h3>

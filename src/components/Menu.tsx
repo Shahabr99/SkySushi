@@ -9,7 +9,7 @@ function Menu() {
 
 
     useEffect(() => {
-
+        // Loads all the items in the menu
         if(data[3].category === "All") {
             setMenu(data[3].items);
             console.log(data)
@@ -19,11 +19,15 @@ function Menu() {
     },[])
 
     // sorts the menu based on the button user clicks
-    function handleClick(type:string) {
-        const newData = data.find(menu => menu[category] === type);
-        console.log(newData)
-        setMenu(newData)
-        setactiveSort(type)
+    function handleClick(menuType:string) {
+        setactiveSort(menuType)
+
+        if(data) {
+            // find the category object in data array
+            setMenu(data.find(menu => menu.category === menuType)?.items);
+        }else{
+            console.error("No data found")
+        }
     }
 
 
@@ -38,9 +42,9 @@ function Menu() {
                         maiores asperiores neque rem.</p>
                     <div className="sort-btns">
                         <button onClick={() => handleClick("All")} className={activeSort === "All" ? "active" : "btn"}>All</button>
-                        <button onClick={() => handleClick("Main")} className={activeSort === "Main" ? "active" : "btn"}>Main Dishes</button>
+                        <button onClick={() => handleClick("Sushies")} className={activeSort === "Sushies" ? "active" : "btn"}>Main Dishes</button>
                         <button onClick={() => handleClick("Drinks")} className={activeSort === "Drinks" ? "active" : "btn"}>Drinks</button>
-                        <button onClick={() => handleClick("Appetizer")} className={activeSort === "Appetizer" ? "active" : "btn"}>Appetizer</button>
+                        <button onClick={() => handleClick("Desserts")} className={activeSort === "Desserts" ? "active" : "btn"}>Appetizer</button>
                     </div>
                 </div>
                 <div className="sushi-card-holder">

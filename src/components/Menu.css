@@ -7,10 +7,10 @@
 
 .menu-section {
     width: 50rem;
-    margin: 10rem auto;
+    margin: 6rem auto;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 2.4rem;
     align-items: center;
 }
 
@@ -62,9 +62,56 @@
 
 .sushi-card-holder {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
     gap: 1.2rem;
-    border: 1px solid;
-    max-width: 80rem;
+    width: 80vw;
     margin: 0 auto;
+    padding: 0.7rem;
+}
+
+
+.sushi-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 15rem;
+    position: relative;
+    border: 1px solid;
+}
+
+.card-img {
+    background-size: cover;
+    background-position: center;
+}
+
+
+.card-desc {
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    line-height: 1.2rem;
+    color: #1f1e1ec3;
+}
+
+.card-desc h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #000;
+}
+
+.pricing {
+    position: absolute;
+    display: block;
+    border: 1px solid;
+    top: 7%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    padding: 0.1rem 0.4rem;
+    color: #000;
+    background-color: #eee;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
 }

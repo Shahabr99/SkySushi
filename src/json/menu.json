@@ -1,10 +1,11 @@
 [
     {
-    "category": "Dishes",
+    "category": "Sushies",
     "items": [
-        { "name": "Pasta", "price": 10.99 },
-        { "name": "Pizza", "price": 12.99 },
-        { "name": "Burger", "price": 8.99 }
+        { "name": "Superman", "price": 10.99, "image": "/static/images/menu/menu-sushi1.jpg" },
+        { "name": "Loud Orgasm", "price": 12.99, "image": "/static/images/menu/menu-sushi2.jpg" },
+        { "name": "Playboy", "price": 8.99, "image": "/static/images/menu/menu-sushi3.jpg" },
+        { "name": "Cowgirl", "price": 9.99, "image": "/static/images/menu/menu-sushi4.jpg" }
     ]
     },
     {
@@ -22,6 +23,20 @@
         { "name": "Ice Cream", "price": 4.49 },
         { "name": "Brownie", "price": 3.99 }
     ]
+    },
+    {
+        "category": "All",
+        "items": [
+            { "name": "Cheesecake", "price": 5.99, "desc": "Freshly made with cream and cheese. Might get a heart attack!" },
+            { "name": "Ice Cream", "price": 4.49, "desc": "Freshly made with cream and cheese. Might get a heart attack!" },
+            { "name": "Brownie", "price": 3.99, "desc": "Freshly made with cream and cheese. Might get a heart attack!" },
+            { "name": "Coke", "price": 2.99, "desc": "Freshly made with cream and cheese. Might get a heart attack!" },
+            { "name": "Orange Juice", "price": 3.49, "desc": "Freshly made with cream and cheese. Might get a heart attack!" },
+            { "name": "Lemonade", "price": 3.99, "desc": "Freshly made with cream and cheese. Might get a heart attack!" },
+            { "name": "Superman", "price": 10.99, "image": "../static/images/menu/menu-sushi1.jpg", "desc":"Crab mixed with rice rolled in brown rice with vegetables" },
+            { "name": "Loud Orgasm", "price": 12.99, "image": "../static/images/menu/menu-sushi2.jpg", "desc":"Shrimp mixed with rice rolled in brown rice with vegetables" },
+            { "name": "Playboy", "price": 8.99, "image": "../static/images/menu/menu-sushi3.jpg", "desc":"Salmon mixed with rice rolled in brown rice with vegetables" },
+            { "name": "Cowgirl", "price": 9.99, "image": "../static/images/menu/menu-sushi4.jpg", "desc":"Trout mixed with rice rolled in brown rice with vegetables" }
+        ]
     }
 ]
-  

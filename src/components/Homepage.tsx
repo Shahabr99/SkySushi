@@ -1,9 +1,3 @@
-// import React from "react";
-// import doordash from "../static/logos/Doordash.png";
-// import grubhub from "../static/logos/Grubhub.png";
-// import businessInsider from "../static/logos/business-insider.png";
-// import forbes from "../static/logos/forbes.png";
-// import usaToday from "../static/logos/usa-today.png";
 import "./Homepage.css";
 import Sushi1 from "../static/images/Sushi1.jpg"
 import Sushi2 from "../static/images/Sushi2.jpg"
@@ -33,16 +27,6 @@ function Homepage() {
                 <img id="move-top" className="sushi-img" src={Sushi3} alt="" />
             </div>
             <footer>
-                {/* <div className="footer-section">
-                    <p>As featured in:</p>
-                    <div className="logo-box2">
-                        <img className="logo" src={doordash} alt="logo" />
-                        <img className="logo" src={usaToday} alt="logo" />
-                        <img className="logo" src={forbes} alt="logo" />
-                        <img className="logo" src={businessInsider} alt="logo" />
-                        <img className="logo" src={grubhub} alt="logo" />
-                    </div>
-                </div> */}
                 <div className="information">
                     <p>address: 2252 Sunrise Blvd, Rancho Cordova, CA 95670 </p>
                     <span>|</span>

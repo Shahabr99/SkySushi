@@ -2,16 +2,17 @@
     display:flex;
     gap: 1.2rem;
     align-items: center;
-    max-width: 80rem;
+    max-width: 90%;
     margin: 5rem auto;
 }
 
 .info-section {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 1.2rem;
     width: 50%;
-    gap: 1.2rem;
+    height: 40rem;
 }
 
 .info-section h1{
@@ -28,9 +29,8 @@
 .restaurant-info {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 0.6rem;
-    padding: 2.8rem;
+    gap: 1.2rem;
+    padding: 1.8rem;
 }
 
 
@@ -55,5 +55,189 @@
     height: 40rem;
     background-image: url("../../public/images/hero.png");
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width:1360px) {
+    .about-header {
+        max-width: 90%;
+    }
+
+    .info-section h1 {
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        font-size: 2.9rem;
+    }
+
+    .info-section p {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .restaurant-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.9rem;
+        padding: 1.2rem;
+    }
+    
+    .restaurant-info div {
+        border: 1px solid #33333393;
+        padding: 0.6rem 1.2rem;
+        width: 14rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .restaurant-info div h1 {
+        font-size: 2.8rem;
+    }
+    
+    .restaurant-info div p {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #0000007c;
+    }
+}
+
+
+@media screen and (max-width:1238px) {
+    .about-header {
+        max-width: 90%;
+    }
+
+    .info-section h1 {
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        font-size: 2.3rem;
+    }
+
+    .info-section p {
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+    }
+
+    .restaurant-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.9rem;
+        padding: 1.2rem;
+    }
+    
+    .restaurant-info div {
+        border: 1px solid #33333393;
+        padding: 0.4rem 1rem;
+        width: 12rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .restaurant-info div h1 {
+        font-size: 2.2rem;
+    }
+    
+    .restaurant-info div p {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #0000007c;
+    }
+}
+
+@media screen and (max-width:1078px) {
+    .about-header {
+        max-width: 90%;
+    }
+
+    .info-section h1 {
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        font-size: 2.3rem;
+    }
+
+    .info-section p {
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+    }
+
+    .restaurant-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.9rem;
+        padding: 1.2rem;
+    }
+    
+    .restaurant-info div {
+        border: 1px solid #33333393;
+        padding: 0.4rem 1rem;
+        width: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .restaurant-info div h1 {
+        font-size: 1.8rem;
+    }
+    
+    .restaurant-info div p {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #0000007c;
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    .about-header {
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-section {
+        width: 100%;
+    }
+
+    .info-section h1 {
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        font-size: 3.6rem;
+    }
+
+    .info-section p {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.6rem;
+    }
+
+    .restaurant-info {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1.2rem;
+    }
+    
+    .restaurant-info div {
+        border: 1px solid #33333393;
+        padding: 0.2rem 0.8rem;
+        width: 15rem;
+        display: flex;
+        align-items: center; 
+    }
+
+    .restaurant-info div h1 {
+        font-size: 1.8rem;
+    }
+    
+    .restaurant-info div p {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #0000007c;
+    }
+
+    .hero {
+        width: 90%;
+    }
 }

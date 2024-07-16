@@ -27,8 +27,7 @@ function Nav() {
                 </ul>
             </div>
             <div className="cart-container">
-                <a className="shop-link" href="">Cart <FontAwesomeIcon icon={faCartShopping} /></a>
-                <a className="shop-link" id="start-btn" href="">Start Here</a>
+                <a className="shop-link" id="start-btn" href="/menu">Start Here</a>
             </div>
             <div className="menu-btn">
                 <FontAwesomeIcon className={`hambur ${menuOpen ? 'close':'open'}`} icon={faBars} size="2xl" onClick={handleClick} />

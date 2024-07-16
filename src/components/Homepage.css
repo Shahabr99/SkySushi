@@ -59,7 +59,7 @@
 }
 
 #reserve-btn:link, #reserve-btn:visited {
-    background-color: #eee;
+    background-color: white;
     color: #000;
     font-weight: 600;
 }
@@ -232,5 +232,26 @@ span {
 
     .information p {
         font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .hero-section {
+        max-width: 23rem;
+    }
+
+    .btns a:link, .btns a:visited {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .btns a:hover, .btns a:active {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .sushi-img {
+        max-width: 7.2rem;
+        max-height: 12rem;
     }
 }

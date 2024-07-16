@@ -101,7 +101,7 @@ span {
 .sushi-container {
     position: absolute;
     left: 50%;
-    top: 65%;
+    top: 80%;
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: space-between;
@@ -140,10 +140,6 @@ span {
         font-size: 3rem;
     }
 
-    /* .list-container {
-        left: 95%;
-    } */
-
     .sushi-container {
         gap: 0.6rem;
     }
@@ -162,7 +158,7 @@ span {
     }
 
     .sushi-container {
-        top: 66%;
+        top: 78%;
     }
 }
 
@@ -176,7 +172,7 @@ span {
     }
 
     .sushi-container {
-        top: 60%;
+        top: 75%;
     }
 
     .sushi-img {
@@ -216,7 +212,7 @@ span {
     }
 
     .sushi-container {
-        top: 60%;
+        top: 75%;
         gap: 0;
     }
 

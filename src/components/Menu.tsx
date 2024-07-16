@@ -12,7 +12,6 @@ function Menu() {
         // Loads all the items in the menu
         if(data[3].category === "All") {
             setMenu(data[3].items);
-            console.log(data)
         }else{
             throw new Error("No data found!")
         }
@@ -41,10 +40,10 @@ function Menu() {
                         Quo laboriosam amet tenetur commodi voluptatibus iste dignissimos
                         maiores asperiores neque rem.</p>
                     <div className="sort-btns">
-                        <button onClick={() => handleClick("All")} className={activeSort === "All" ? "active" : "btn"}>All</button>
-                        <button onClick={() => handleClick("Sushies")} className={activeSort === "Sushies" ? "active" : "btn"}>Main Dishes</button>
-                        <button onClick={() => handleClick("Drinks")} className={activeSort === "Drinks" ? "active" : "btn"}>Drinks</button>
-                        <button onClick={() => handleClick("Desserts")} className={activeSort === "Desserts" ? "active" : "btn"}>Appetizer</button>
+                        <button onClick={() => handleClick("All")} className={`btn ${activeSort === "All" ? "active" : ""}`}>All</button>
+                        <button onClick={() => handleClick("Sushies")} className={`btn ${activeSort === "Sushies" ? "active" : ""}`}>Main Dishes</button>
+                        <button onClick={() => handleClick("Drinks")} className={`btn ${activeSort === "Drinks" ? "active" : ""}`}>Drinks</button>
+                        <button onClick={() => handleClick("Desserts")} className={`btn ${activeSort === "Desserts" ? "active" : ""}`}>Appetizer</button>
                     </div>
                 </div>
                 <div className="sushi-card-holder">

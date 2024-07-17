@@ -242,27 +242,6 @@
         width: 90%;
     }
 
-    /* .navbar {
-        position: static;
-        justify-content: space-around;
-    } */
-
-    /* .list-container {
-        position: absolute;
-        left: 97%;
-        top: 15%;
-        background-color: #6763637c;
-        padding: 0.6rem 1.2rem;
-        transform: translate(-71%, -50%);
-        width: 5.6rem;
-    } */
-
-    /* .list-container ul {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 2rem;
-    } */
 }
 
 @media screen and (max-width: 670px) {

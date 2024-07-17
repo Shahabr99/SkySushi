@@ -117,7 +117,7 @@
     }
 
     .list-container {
-        position: absolute;
+        position: fixed;
         left: 93%;
         top: 17%;
         background-color: #040303fc;
@@ -213,6 +213,15 @@
     }
 
     .list-container {
-        left: 95%;
+        left: 88%;
     }
+}
+
+
+@media screen and (max-width: 375px) {
+    .list-container {
+        top: 18%;
+        left: 86%;
+    }
+
 }
